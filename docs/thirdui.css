@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: montserrat;
+  color: #363633;
+  background: #f5f5f7; }
+  body .body-wrapper {
+    padding: 1rem 7rem; }
+  body .background-image {
+    width: 100%;
+    height: 40vh;
+    background: #17a2b8;
+    position: absolute;
+    z-index: -1; }
+  body .header-nav .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem; }
+    body .header-nav .header-top h1 {
+      font-size: 3rem;
+      color: #f5f5f7; }
+    body .header-nav .header-top ul {
+      margin: 0 auto;
+      font-size: 1.4rem; }
+      body .header-nav .header-top ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 1rem; }
+        body .header-nav .header-top ul li:hover, body .header-nav .header-top ul liactive {
+          border-bottom: 1.5px solid #f5f5f7;
+          padding-bottom: 1rem; }
+        body .header-nav .header-top ul li a {
+          color: #f5f5f7;
+          text-decoration: none; }
+    body .header-nav .header-top .header__profile {
+      font-size: 1.4rem;
+      color: white; }
+      body .header-nav .header-top .header__profile .profile-name {
+        display: inline; }
+      body .header-nav .header-top .header__profile .fa-angle-down {
+        display: inline-block;
+        padding-left: 2rem; }
+  body .main-body {
+    display: flex;
+    justify-content: space-between; }
+    body .main-body .sidebar {
+      width: 30%; }
+      body .main-body .sidebar .body-lt--cn {
+        background: white;
+        color: #363633;
+        border-radius: 6px;
+        height: 40rem;
+        width: 27rem;
+        font-size: 1.2rem;
+        margin-right: 2rem;
+        padding: 2rem 1.5rem; }
+        body .main-body .sidebar .body-lt--cn h1 {
+          font-weight: bold; }
+        body .main-body .sidebar .body-lt--cn p {
+          padding: 1.5rem 0;
+          cursor: pointer; }
+          body .main-body .sidebar .body-lt--cn p:hover {
+            color: #cfcfcc; }
+          body .main-body .sidebar .body-lt--cn p:active, body .main-body .sidebar .body-lt--cn p:focus {
+            color: #17a2b8;
+            outline: none; }
+    body .main-body .body-rt .body-rt__top {
+      margin-bottom: 9rem; }
+      body .main-body .body-rt .body-rt__top .body-rt__top--title {
+        display: flex;
+        color: #f5f5f7;
+        margin-bottom: 3rem; }
+        body .main-body .body-rt .body-rt__top .body-rt__top--title h3 {
+          font-size: 2.7rem;
+          margin-right: auto; }
+        body .main-body .body-rt .body-rt__top .body-rt__top--title button {
+          border: none;
+          border-radius: 50px;
+          height: 4rem;
+          width: 18rem;
+          cursor: pointer;
+          border: 1.5px solid #f5f5f7;
+          color: #f5f5f7;
+          background: transparent;
+          font-family: inherit; }
+          body .main-body .body-rt .body-rt__top .body-rt__top--title button:hover, body .main-body .body-rt .body-rt__top .body-rt__top--title button:active {
+            background: #f5f5f7;
+            color: #17a2b8; }
+          body .main-body .body-rt .body-rt__top .body-rt__top--title button:focus {
+            outline: none; }
+      body .main-body .body-rt .body-rt__top .body-rt__top--body {
+        color: #f5f5f7; }
+        body .main-body .body-rt .body-rt__top .body-rt__top--body p {
+          font-size: 1.3rem; }
+    body .main-body .body-rt .body-rt__data {
+      padding-top: 0.9rem; }
+      body .main-body .body-rt .body-rt__data .body-rt__data--top h3 {
+        font-size: 1.9rem;
+        color: #17a2b8;
+        margin-bottom: 1rem; }
+      body .main-body .body-rt .body-rt__data .body-rt__data--top .sol {
+        width: 90rem; }
+        body .main-body .body-rt .body-rt__data .body-rt__data--top .sol .sub-title1 {
+          display: flex; }
+          body .main-body .body-rt .body-rt__data .body-rt__data--top .sol .sub-title1 p {
+            width: 15rem;
+            margin: 0 10rem 0.8rem 0;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #363633; }
+        body .main-body .body-rt .body-rt__data .body-rt__data--top .sol .sol-data {
+          display: flex;
+          background: white;
+          border-radius: 5px;
+          height: 4rem;
+          padding: 0 1.1rem;
+          margin-bottom: 2rem; }
+          body .main-body .body-rt .body-rt__data .body-rt__data--top .sol .sol-data p {
+            width: 15rem;
+            margin-right: 10rem;
+            font-size: 1.2rem;
+            align-self: center; }
+          body .main-body .body-rt .body-rt__data .body-rt__data--top .sol .sol-data button {
+            border: none;
+            background: #f4bc2c;
+            color: white;
+            font-size: 1.1rem;
+            font-family: inherit;
+            border-radius: 4px;
+            width: 15rem;
+            height: 3rem;
+            align-self: center; }
+      body .main-body .body-rt .body-rt__data .body-rt__data--top .sol.seol button {
+        border: none;
+        background: #e42c64;
+        color: white;
+        font-size: 1.1rem;
+        font-family: inherit;
+        border-radius: 50px;
+        width: 15rem;
+        height: 3rem;
+        align-self: center; }
+    body .main-body .body-rt .buttons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      body .main-body .body-rt .buttons div {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background: #cfcfcc;
+        margin-left: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem; }
+        body .main-body .body-rt .buttons div:hover {
+          background: #17a2b8;
+          cursor: pointer;
+          color: white; }
+  body .main-footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    font-size: 1.2rem; }
+  body .main-footer:before {
+    content: " ";
+    display: block;
+    height: 4px;
+    background: #cfcfcc;
+    margin-top: 10rem; }
+
+/*# sourceMappingURL=thirdui.css.map */
